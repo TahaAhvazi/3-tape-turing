@@ -1,0 +1,6 @@
+states: q0,q1,qa,qr
+accept_state: qa
+reject_state: qr
+transition: q0,a,b,c->q1,X,Y,Z,R,R,R
+transition: q1,a,b,c->q1,X,Y,Z,R,R,R
+transition: q1,<>,<>,<>->qa,<>,<>,<>,R,R,R
